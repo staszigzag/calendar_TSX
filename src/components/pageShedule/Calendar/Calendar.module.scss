@@ -1,0 +1,68 @@
+.calendar {
+  padding       : 20px 18px;
+  border-radius : 6px;
+  box-shadow    : 0px 2px 23px #EDEDED;
+  font-weight   : 500;
+  font-style    : normal;
+}
+
+.title {
+  padding-left   : 13px;
+  font-size      : 15px;
+  letter-spacing : 0.6px;
+  text-align     : left;
+  color          : #6B7897;
+}
+
+.wrapDaysWeek {
+  display               : grid;
+  grid-template-columns : repeat(7, 1fr);
+  padding-top           : 17px;
+}
+
+.dayWeek {
+  color       : rgba(52, 72, 94, 0.536062);
+  font-size   : 16px;
+  text-align  : center;
+  user-select : none;
+}
+
+.wrapDays {
+  display               : grid;
+  grid-template-columns : repeat(7, 1fr);
+  grid-auto-rows        : 35px;
+  padding-top           : 19px;
+  justify-items         : center;
+  align-items           : center;
+}
+
+.day {
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  width           : 30px;
+  height          : 30px;
+  border-radius   : 50%;
+  padding-top     : 3px;
+  font-size       : 14px;
+  text-align      : center;
+  color           : #7C86A2;
+  user-select     : none;
+  cursor          : pointer;
+  &:focus{
+    outline: none;
+  }
+}
+
+.selected {
+  color      : #FFFFFF;
+  background : linear-gradient(0deg, #7ED5FC 0%, #90D9FA 100%);
+}
+
+.isTasks {
+  color : #AA3434;
+}
+
+.spacer {
+  grid-column-start : 1;
+}

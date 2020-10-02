@@ -1,0 +1,18 @@
+@import "./fonts/fonts.css";
+
+body {
+  font-family : 'HelveticaNeueCyr', Helvetica, sans-serif;
+}
+
+* {
+  box-sizing : border-box;
+}
+
+li {
+  list-style-type : none;
+}
+
+ul {
+  margin  : 0;
+  padding : 0;
+}

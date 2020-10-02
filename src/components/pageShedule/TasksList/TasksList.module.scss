@@ -1,0 +1,62 @@
+.taskList {
+  padding       : 16px 16px;
+  border-radius : 6px;
+  box-shadow    : 0px 2px 23px #EDEDED;
+  font-weight   : 500;
+  font-style    : normal;
+}
+
+.title {
+  padding-left   : 13px;
+  font-size      : 15px;
+  letter-spacing : 0.6px;
+  text-align     : left;
+  color          : #8C96AB;
+}
+
+.wrapper {
+  max-height : 220px;
+  overflow-y : auto;
+}
+
+.itemTask {
+  margin : 6px 0;
+}
+
+.label {
+  cursor : pointer
+}
+
+.checkbox {
+  margin      : 0;
+  margin-left : 12px;
+  cursor      : pointer
+}
+
+.textTask {
+  display        : inline-block;
+  width          : 300px;
+  margin-left    : 18px;
+  margin-bottom  : -5px;
+  font-size      : 15px;
+  line-height    : 18px;
+  letter-spacing : 0.6px;
+  color          : #A2ABBF;
+  overflow       : hidden;
+  white-space    : nowrap;
+  text-overflow  : ellipsis;
+}
+
+.inputTask {
+  border        : 1px solid #D8DCE6;
+  border-radius : 4px;
+  padding       : 6px 14px;
+  margin-left   : 43px;
+  margin-top    : 10px;
+  outline       : none;
+
+  &::placeholder {
+    color : #BFC4CC;
+  }
+}
+
